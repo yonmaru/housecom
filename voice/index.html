@@ -1,0 +1,231 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="/css/reset.css" rel="stylesheet" type="text/css">
+<link href="/css/style.css" rel="stylesheet" type="text/css">
+<link href="/css/animate.css" rel="stylesheet" type="text/css">
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+<!-- ブラウザの横幅が769px以上の場合 -->
+<link href="/css/pc.css" rel="stylesheet" type="text/css" media="screen and (min-width: 769px)" />
+<!-- ブラウザの横幅が768px以下の場合 -->
+<link href="/css/tb.css" rel="stylesheet" type="text/css" media="screen and (max-width: 768px)" />
+<!-- ブラウザの横幅が640px以下の場合 -->
+<link href="/css/sp.css" rel="stylesheet" type="text/css" media="screen and (max-width: 640px)" />
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script src="/js/common.js"></script>
+<script src="/js/bgswitch.js"></script>
+<script src="/js/wow.min.js"></script>
+<script>
+    $(window).on('load', function() {
+        $('.main_visual').bgSwitcher({
+            images: ['img/home/bg01.jpg','img/home/bg02.jpg'],
+        });
+    });
+    (function(d) {
+    var config = {
+        kitId: 'eku6aag',
+        scriptTimeout: 3000,
+        async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+    
+    wow = new WOW(
+        {
+            boxClass: 'wow', // default
+            animateClass: 'animated', // default
+            offset:180// アニメーションをスタートさせる距離
+        }
+    );
+    wow.init();
+</script>
+<!--[if lt IE 9]>
+<script src="/js/html5shiv.js"></script>
+<script src="/js/respond.min.js"></script>
+<![endif]-->
+<meta name="msapplication-square70x70logo" content="/img/favicons/site-tile-70x70.png">
+<meta name="msapplication-square150x150logo" content="/img/favicons/site-tile-150x150.png">
+<meta name="msapplication-wide310x150logo" content="/img/favicons/site-tile-310x150.png">
+<meta name="msapplication-square310x310logo" content="/img/favicons/site-tile-310x310.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+<link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicons/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="36x36" href="/img/favicons/android-chrome-36x36.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/img/favicons/android-chrome-48x48.png">
+<link rel="icon" type="image/png" sizes="72x72" href="/img/favicons/android-chrome-72x72.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicons/android-chrome-96x96.png">
+<link rel="icon" type="image/png" sizes="128x128" href="/img/favicons/android-chrome-128x128.png">
+<link rel="icon" type="image/png" sizes="144x144" href="/img/favicons/android-chrome-144x144.png">
+<link rel="icon" type="image/png" sizes="152x152" href="/img/favicons/android-chrome-152x152.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/img/favicons/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="256x256" href="/img/favicons/android-chrome-256x256.png">
+<link rel="icon" type="image/png" sizes="384x384" href="/img/favicons/android-chrome-384x384.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/img/favicons/android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="36x36" href="/img/favicons/icon-36x36.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/img/favicons/icon-48x48.png">
+<link rel="icon" type="image/png" sizes="72x72" href="/img/favicons/icon-72x72.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicons/icon-96x96.png">
+<link rel="icon" type="image/png" sizes="128x128" href="/img/favicons/icon-128x128.png">
+<link rel="icon" type="image/png" sizes="144x144" href="/img/favicons/icon-144x144.png">
+<link rel="icon" type="image/png" sizes="152x152" href="/img/favicons/icon-152x152.png">
+<link rel="icon" type="image/png" sizes="160x160" href="/img/favicons/icon-160x160.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/img/favicons/icon-192x192.png">
+<link rel="icon" type="image/png" sizes="196x196" href="/img/favicons/icon-196x196.png">
+<link rel="icon" type="image/png" sizes="256x256" href="/img/favicons/icon-256x256.png">
+<link rel="icon" type="image/png" sizes="384x384" href="/img/favicons/icon-384x384.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/img/favicons/icon-512x512.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/icon-16x16.png">
+<link rel="icon" type="image/png" sizes="24x24" href="/img/favicons/icon-24x24.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/icon-32x32.png">
+<link rel="manifest" href="/img/favicons/manifest.json">
+</head>
+<body id="top" class="page-voiceindex">
+<div id="wrapper">
+	<!-- ***** Start Header Area ***** -->
+	<!--#include virtual="/ssi/header.html" -->
+	<!-- ***** //End Header Area ***** -->
+	<article id="article">
+        <section class="section01 section_voiceindex">
+            <div class="inner">
+                <h1 class="title font-en bold">VOICES<span>社員の声</span></h1>
+                <div class="onecolumnboxes">
+                    <div class="innerbox">
+                        <div class="image"><a href="voicepage01"><img src="/img/voice/image01.jpg" alt=""></a></div>
+                        <div class="text">
+                            <h3><a href="voicepage01">お客様の人生も一緒に考えたい</a></h3>
+                            <ul>
+                                <li>山田　栞</li>
+                                <li>2018年新卒入社</li>
+                                <li>昭和女子大学</li>
+                                <li>鷺沼店</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="innerbox">
+                        <div class="image"><a href="voicepage02"><img src="/img/voice/image02.jpg" alt=""></a></div>
+                        <div class="text">
+                            <h3><a href="voicepage02">20歳で入社したからこその、難しさとやりがい</a></h3>
+                            <ul>
+                                <li>三井　梨紗子</li>
+                                <li>2016年新卒入社</li>
+                                <li>目白大学短期大学部</li>
+                                <li>立川店</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="innerbox">
+                        <div class="image"><a href="voicepage03"><img src="/img/voice/image03.jpg" alt=""></a></div>
+                        <div class="text">
+                            <h3><a href="voicepage03">外国のお客様にも、「あなたの助けになれる人がいる」を届けたい</a></h3>
+                            <ul>
+                                <li>ダオ　ティトウ</li>
+                                <li>2018年新卒入社</li>
+                                <li>東京日建工科専門学校</li>
+                                <li>赤羽店</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="innerbox">
+                        <div class="image"><a href="voicepage04"><img src="/img/voice/image04.jpg" alt=""></a></div>
+                        <div class="text">
+                            <h3><a href="voicepage04">見えないからこそ、お客様の本心に寄り添う営業を</a></h3>
+                            <ul>
+                                <li>橋本　悠弥</li>
+                                <li>2016年新卒入社</li>
+                                <li>日本大学</li>
+                                <li>小田原店</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="innerbox">
+                        <div class="image"><a href="voicepage05"><img src="/img/voice/image05.jpg" alt=""></a></div>
+                        <div class="text">
+                            <h3><a href="voicepage05">「住まいを通して人を幸せにする」を意識し続けたい</a></h3>
+                            <ul>
+                                <li>成田　智矢</li>
+                                <li>帝京大学</li>
+                                <li>西船橋店</li>
+                                <li>&nbsp;</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="innerbox">
+                        <div class="image"><a href="voicepage06"><img src="/img/voice/image06.jpg" alt=""></a></div>
+                        <div class="text">
+                            <h3><a href="voicepage06">人と人とのつながりを大切にする仕事</a></h3>
+                            <ul>
+                                <li>林　亮汰</li>
+                                <li>2016年新卒入社</li>
+                                <li>東京都市大学</li>
+                                <li>赤羽店</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="innerbox">
+                        <div class="image"><a href="voicepage07"><img src="/img/voice/image07.jpg" alt=""></a></div>
+                        <div class="text">
+                            <h3><a href="voicepage07">『ありがとう』がこんなに嬉しいなんて</a></h3>
+                            <ul>
+                                <li>増田　聖人</li>
+                                <li>2017年新卒入社</li>
+                                <li>武蔵野大学</li>
+                                <li>千葉店</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="innerbox">
+                        <div class="image"><a href="voicepage08"><img src="/img/voice/image08.jpg" alt=""></a></div>
+                        <div class="text">
+                            <h3><a href="voicepage08">一からお客様と向き合いたい！</a></h3>
+                            <ul>
+                                <li>菊岡　銀河</li>
+                                <li>2017年新卒入社</li>
+                                <li>淑徳大学</li>
+                                <li>津田沼店</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="innerbox">
+                        <div class="image"><a href="voicepage09"><img src="/img/voice/image09.jpg" alt=""></a></div>
+                        <div class="text">
+                            <h3><a href="voicepage09">今は目の前のお客様に誠実に、目標はこれから見つけたい。</a></h3>
+                            <ul>
+                                <li>関　駿吾</li>
+                                <li>2017年新卒入社</li>
+                                <li>東京国際大学</li>
+                                <li>熊谷店</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Start recruit Area ***** -->
+        <!--#include virtual="/ssi/recruit.html" -->
+        <!-- ***** //End recruit Area ***** -->
+	</article>
+	<!-- ***** Start footer Area ***** -->
+	<!--#include virtual="/ssi/footer.html" -->
+	<!-- ***** //End footer Area ***** -->
+</div>
+</body>
+</html>
